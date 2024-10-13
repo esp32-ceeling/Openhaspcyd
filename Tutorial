@@ -1,0 +1,11 @@
+So you will need to first plug the cyd in your computer [IT DOSENT MATTER IF IT HAS 1 USB C 1 USB MICRO] it will work
+next step You need to download the esptool.zip from the relases 
+second step Unzip the folder And go in the folder open a cmd and now you will flash it with this command esptool write_flash 0x0 esp32-2432s028r-st7789_full_4MB_v0.7.0-rc12_dada059.bin
+if you have any problem with flashing contact me on discord :awp13
+next you will get a working screen or a not working screen if your screen is black i dont know how to help you but if your screen is half working backwards
+then you will need to connect to the cyd on wifi it will have a network name like this Openhasp_XXXXXX
+heres the password for the wifi : haspadmin
+and if your connected you will get prompet with a wifi page here you will need to set your wifi name and password if correct it shloud connect 
+if its connected you will need to type this ip addres into your browser : 192.168.0.240
+it will open the openhasp page next go to configuration display settings and choose 0 degrees and next type this into your browser http://192.168.0.240/reboot
+this will reboot the cyd and if everything done correctly you're finished have fun !
